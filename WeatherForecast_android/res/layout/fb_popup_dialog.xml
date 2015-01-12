@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+ 
+ 		<Button
+ 		    android:id="@+id/dPOST"
+ 		    android:layout_width="330px"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_alignParentLeft="true"
+ 		    android:layout_alignParentRight="true"
+ 		    android:text="Post Current Weather" />
+
+ 		<Button
+ 		    android:id="@+id/dCancel"
+ 		    android:layout_width="330px"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_alignParentLeft="true"
+ 		    android:layout_alignParentRight="true"
+ 		    android:layout_below="@+id/dPOST"
+ 		    android:layout_marginTop="2dp"
+ 		    android:text="Cancel" />
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:orientation="horizontal" 
+    android:gravity="center" >  
+  
+    <View  
+        android:layout_width="0.5px"  
+        android:layout_height="fill_parent"  
+        android:background="#B8B8B8"  
+        android:visibility="visible" />  
+  
+    <TextView  
+        android:id="@+id/listDay"  
+        android:layout_width="60dip"  
+        android:layout_height="wrap_content"  
+        android:gravity="center"
+         />  
+  
+    <View  
+        android:layout_width="0.5px"  
+        android:layout_height="fill_parent"  
+        android:background="#B8B8B8"  
+        android:visibility="visible" />  
+  
+    <TextView  
+        android:id="@+id/listWeather"  
+        android:layout_width="140dip"  
+        android:layout_height="wrap_content"  
+        android:gravity="center"
+        />  
+  
+    <View  
+        android:layout_width="0.5px"  
+        android:layout_height="fill_parent"  
+        android:background="#B8B8B8"  
+        android:visibility="visible" />  
+  
+    <TextView  
+        android:id="@+id/listHigh"  
+        android:layout_width="60dip"  
+        android:layout_height="wrap_content"  
+        android:textColor="#FF7029" 
+        android:gravity="center" 
+       />  
+  
+    <View  
+        android:layout_width="0.5px"  
+        android:layout_height="fill_parent"  
+        android:background="#B8B8B8"  
+        android:visibility="visible" />  
+  
+    <TextView  
+        android:id="@+id/listLow"  
+        android:layout_width="60dip"  
+        android:layout_height="wrap_content"  
+        android:textColor="#29B8FF"  
+        android:gravity="center"
+        />  
+  
+    <View  
+        android:layout_width="0.5px"  
+        android:layout_height="fill_parent"  
+        android:background="#B8B8B8"  
+        android:visibility="visible" />  
+  
+  
+  
+  
+</LinearLayout>  
+
